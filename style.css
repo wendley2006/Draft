@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Nav part*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+nav ul li{
+    display: inline;
+    padding: 30px;
+    margin-top: 40px;
+   /* border-bottom: 1px solid #383838;*/
+    width: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: all .5s;
+    text-transform: uppercase; 
+}
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+/*Hero*/
+.hero{
+    background-image: url("./Images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.hero p{
+    margin-top: 40px;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+   font-family:  'Pacifico', cursive;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.hero .des{
+color:whitesmoke;
+font-size: 29px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.hero button{/*
+  background-color: red;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    animation-delay: 1.4s;
+    */
+    margin-top: 30px;
+    background: #eb3007;
+    border: 2px solid #eb3007;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 1px !important;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.hero button:hover{
+    background-color:green;
+}
+
+/*about*/
+
+.about img{
+    border-radius: 30px;
+    height:550px;
+    width:450px;
+    vertical-align: middle;
+ }
+
+ .about h1{
+    text-align: center;
+}
+
+.about p{
+    font-family:  'Pacifico', cursive;
+    text-align: center;
+}
+
+.about button{
+    letter-spacing: 2px;
+    font-size:12px;
+    padding: 4px 16px;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 20px;
+}
