@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+h4{
+  margin-top: 30px;
+  text-align: center;
+}
 /*Nav part*/
 nav{
     display: flex;
@@ -110,17 +114,214 @@ font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
 }
 */
+
 .about {
     display: flex;
     align-items: center;
+    background-color: wheat;
   }
-
+.about img {
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 460px;
+}
   .text {
     flex: 1;
     text-align: left;
+  }
+ .text .red{
+   color: red;
+   font-size: 20px;
+ }
+  .text p{
+   margin: 20px;
+   font-size: 17px;
+  }
+  .text h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
   }
 
   .image {
     flex: 1;
     text-align: right;
   }
+  .about button{
+    display: inline-block;
+   outline: 0;
+   border: none;
+   cursor: pointer;
+   font-weight: 600;
+   border-radius: 4px;
+   font-size: 13px;
+   height: 45px;
+   margin-left: 100px;
+   background-color:#AA0000;
+   color: white;
+   padding: 0 20px;  
+  }
+  .about button:hover{
+  background-color: #772ce8;
+  }
+
+  /*Social*/
+  
+  .social{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Images/socia.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+  }
+  .social img{
+    background-color: white;
+    height: 46px;
+    border-radius: 10px;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+  }
+  .social img:hover{
+    background-color: red;
+  }
+  .social h2{
+    color: white;
+    margin-top: 90px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+  }
+  .social p{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+  }
+
+  .social p::after{
+    content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+  }
+  .social p:hover:after{
+    width: 100%;
+    background: red;
+  }
+.social .block{
+    display:flex;
+    flex-direction: column;
+}
+
+
+  /*menu*/
+.menu{
+    margin-top: 90px;
+    display:flex;
+    background-color: gainsboro;
+    height: 100px;
+  
+}
+.menu h2{
+  text-align: center;
+}
+.block-menu{
+height: 70px;
+width: 110px;
+border: 1px solid red;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.block-menu p, h3{
+  text-align: center;
+  font-style: italic;
+}
+
+.content{
+  display: inline-block;
+  background-color: grey;
+}
+.price-menu{
+  margin-top: 90px;
+  border: 1px solid black;
+  position: relative;
+  padding: 20px;
+ height: 150px;
+ width: 500px;
+
+
+
+ display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+
+.other-des{
+  margin-top: 90px;
+  border: 1px solid black;
+  position: relative;
+  padding: 20px;
+ height: 150px;
+ width: 500px;
+
+ display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+
+/*Our chef */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: gray;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/*Contact and Reservation*/
