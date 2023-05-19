@@ -368,7 +368,7 @@ button:hover, a:hover {
 	align-items: center;
 	padding: 10px;
 }
-
+p.all
 .container:after{
 	content: '';
 	position: absolute;
@@ -376,7 +376,7 @@ button:hover, a:hover {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("./Images/chef.jpeg") no-repeat center;
+	background: url("") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -393,7 +393,7 @@ button:hover, a:hover {
 }
 
 .left{
-	background: url("/Images/about.jpeg") no-repeat center;
+	background: url("./Images/about.jpeg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -471,4 +471,47 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+/*food gallery*/
+.galery-main p{
+  text-align: center;
+  margin: 70px;
+}
+.galery-main h2{
+  text-align: center;
+}
+.galery-main{
+  background-color: red;
+ 
+}
+.container{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+
+}
+.galery img{
+  width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Testimonials*/
+
+.test{
+background-image: url("./Images/bac.jpg");
+height: 600px;
+}
+.test p,h3{
+  text-align: center;
+  font-size: 20px;
+}
+.profile img{
+  border-radius: 10px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
 }
