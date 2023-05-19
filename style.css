@@ -196,7 +196,7 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Images/socia.jpeg");
+    background-image: url("./Images/socia.jpeg");
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -376,7 +376,7 @@ button:hover, a:hover {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("/Images/chef.jpeg") no-repeat center;
+	background: url("./Images/chef.jpeg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
